@@ -1,0 +1,31 @@
+<head>
+	<title>Leviathan</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'></head>
+<body>
+	<header>
+	<div class="contain text-center">
+	<p>Leviathan Wargames!!!</p>
+	</div>
+	</header>
+	<div class="body1">
+	<div class="container text-center">
+		<h1 style="color:white">Leviathan-1</h1>
+		<p id="para">This is the first challenge. We connect to the host using ssh. First we use 'ls' command to list the files, but it does not return any files.</p>
+		<p id="para">Now we use the command 'ls -a' to list the hidden files. We see a directory '.backup'. We open it seeing a file 'bookmarks.html' inside the directory. We 'cat' the file but the file contains too much strings to track the password.</p>
+		<p id="para">Now comes the interesting part of extracting password. The trick is to 'grep' the file for keyword 'password'.</p>
+		<p id="para">Command-'grep password bookmarks.html'. This will return the lines containing the keyword 'password'. We will easily locate the password for the next level. </p>
+		<img class="container image" src="l-1.jpg">
+	</div>
+	</div>
+	<footer>
+		<div class="foot text-center">
+			<p>&copy; White Horsemen</p>
+		</div>
+		
+	</footer>
+
+</body>
+</html>
